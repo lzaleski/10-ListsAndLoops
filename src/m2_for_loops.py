@@ -40,7 +40,7 @@ for x in ingredients:
 ###############################################################################
 for x in ingredients:
     if x in "sugar":
-        print(" I found sugar")
+        print("I found sugar")
 
 ###############################################################################
 # DONE: 3. (3 pts)
@@ -63,6 +63,5 @@ for x in ingredients:
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
-star = "*"
 for x in range(6):
     print("*" * x)

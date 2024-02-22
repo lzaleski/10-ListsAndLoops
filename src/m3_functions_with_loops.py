@@ -75,7 +75,6 @@ ingredient_search("bacon", ingredients)
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 def triangle(size):
-    star = "*"
     for x in range(size):
         print("*" * x)
 
