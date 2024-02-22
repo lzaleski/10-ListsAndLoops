@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #   
 #   For this _TODO_, first, copy the line of code from m1 where you created
 #   your list and paste it under this _TODO_. We will use this list some more
@@ -14,8 +14,12 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+ingredients = ["sugar", "salt", "flour", "vanilla"]
+for x in ingredients:
+    print(x)
+
 ###############################################################################
-# TODO: 2. (3 pt)
+# DONE: 2. (3 pt)
 #   
 #   Let's try using an if statement inside a for loop.
 #   
@@ -34,9 +38,12 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+for x in ingredients:
+    if x in "sugar":
+        print(" I found sugar")
 
 ###############################################################################
-# TODO: 3. (3 pts)
+# DONE: 3. (3 pts)
 #   
 #   For this _TODO_, write a for loop that uses the range() function to print
 #   out lines of stars (*) in increasing amounts ending with a line of 5 stars.
@@ -55,3 +62,7 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+
+star = "*"
+for x in range(6):
+    print("*" * x)
