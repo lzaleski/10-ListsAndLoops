@@ -37,7 +37,7 @@ ingredient_search("flour", ingredients)
 ingredient_search("bacon", ingredients)
 
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #   
 #   For this _TODO_, write a function called triangle() that takes one
 #   parameter:
